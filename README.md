@@ -52,5 +52,3 @@ Interested in other AI Topics in Unity, or other tutorials on Unity in general?
 
 ## Requirements
 * Requires Unity 2020.3 LTS or higher.
-* [Navigation Components](https://docs.unity3d.com/Manual/NavMesh-BuildingComponents.html)
-* [Unity Particle Pack](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325)
