@@ -28,7 +28,7 @@ public class FlickeringEmissive : MonoBehaviour
 
         foreach (Material material in Renderer.materials)
         {
-            if (Renderer.material.enabledKeywords.Any(item => item.name == EMISSIVE_KEYWORD)
+            if (material.enabledKeywords.Any(item => item.name == EMISSIVE_KEYWORD)
                 && Renderer.material.HasColor(EMISSIVE_COLOR_NAME))
             {
                 Materials.Add(material);
